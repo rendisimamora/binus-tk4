@@ -1,0 +1,35 @@
+.black70--text {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.black50--text {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.primary--text {
+  color: #7c4d78;
+}
+
+.secondary--text {
+  color: #f8c265;
+}
+
+.white--text {
+  color: #fff;
+}
+
+.primary {
+  background: #7c4d78;
+}
+
+.primary--dark {
+  background: #613e5e;
+}
+
+.white {
+  background: #fff;
+}
+
+.grey {
+  background: #fcfcfc;
+}

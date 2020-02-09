@@ -1,0 +1,147 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* variable */
+
+@media (min-width: 1264px) {
+  .container {
+    max-width: 1264px !important;
+  }
+}
+
+@media (min-width: 960px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 768px) {
+  .item__responsive {
+    display: block !important;
+  }
+  .image__header {
+    width: 80% !important;
+    display: block;
+    margin: auto;
+  }
+  .header--left {
+    order: 2;
+    text-align: center;
+  }
+  .header--right {
+    order: 1;
+  }
+
+  .heading__text-desc {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 16px;
+  }
+  .flex--direction-column {
+    flex-direction: column;
+  }
+}
+
+.form-control {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.container {
+  display: block;
+  margin: auto;
+}
+
+.item--flex {
+  display: flex;
+}
+
+.border-radius8 {
+  border-radius: 8px;
+}
+
+.image__avatar {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.image--rounded {
+  border-radius: 100%;
+}
+
+.image--center {
+  display: block;
+  margin: auto;
+}
+
+/* End variable */
+
+/* Section Navbar */
+.item__logo {
+  width: 100px;
+  flex-shrink: 0;
+}
+
+.image__logo {
+  width: 100px;
+  display: block;
+}
+.nav .nav-item {
+  display: inline-block;
+}
+
+.nav-item-anchor {
+  text-decoration: none;
+}
+
+/* End Section Navbar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Header Section */
+
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image__header {
+  width: 100%;
+}
+
+.heading__title {
+  font-size: 50px;
+}
+
+.heading__title-head {
+  font-size: 70px;
+}
+
+.heading__text-desc {
+  width: 80%;
+}
+
+/* Section Book */
+
+.image__book {
+  max-width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+/* End Section */
+
+.card {
+  width: 50%;
+}

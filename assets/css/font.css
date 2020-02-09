@@ -1,0 +1,36 @@
+.subheading {
+  font-size: 20px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.body-1 {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.body-2 {
+  font-size: 14px;
+}
+
+.caption {
+  font-size: 12px;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.text--decoration-none {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
